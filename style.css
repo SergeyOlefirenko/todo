@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+body {
+    background-color: #020631;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin:100px auto 20px;
+    background-image: url(https://www.freelogoservices.com/blog/wp-content/uploads/transparent-logo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title{ 
+color: white;
+margin-left: 15px;
+
+}
+.user-input {
+margin-top: 10px;
+margin-right: -20px;
+margin-bottom: 20px;
+width: 300px;
+height: 30px;
+/* border-radius: 5px; */
+padding: 0px 19px 0px 5px;
+outline: none;
+}
+.add-button{
+/* margin-left: -10px; */
+width: 20px;
+height: 30px;
+background-color: white;
+/* border-radius: 5px; */
+}
+.add-button:hover{
+    background-color: tomato;
+}
+li{
+    background-color: white;
+    width: 300px;
+    margin: 5px auto;
+    height: 30px;
+    /* border-radius: 5px; */
+    padding: 5px;
+}
+li:hover{
+    background-color: aqua;
+    text-decoration: line-through 2px solid blue;
+    color: white;
+}
+ul{
+    text-align: left;
+    /* width: 500px; */
+}
+.br-5{
+    border-radius: 5px;
+}
+.bg-w{
+    background-color: white;
+    color:#020631
+}
+.checkbox{
+    width: 10px;
+    height: 10px;
+}
